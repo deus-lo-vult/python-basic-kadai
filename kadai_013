@@ -1,0 +1,5 @@
+def taxed_price(price_without_tax) -> int:
+  tax_rate = 1.1
+  return price_without_tax * tax_rate
+
+taxed_price(100)
