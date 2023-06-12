@@ -1,0 +1,14 @@
+class Human:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  def check_adult(self):
+    if self.age >= 20:
+      print("でなければ帰れ。")
+    else:
+      print("エヴァに乗れ。")
+
+humans = [Human("碇シンジ", 14), Human("綾波レイ", 14), Human("式波・アスカ・ラングレー", 14)]
+
+for human in humans:
+  human.check_adult()
