@@ -1,7 +1,6 @@
 import math
 
-def two_arguments(price_without_tax, tax_rate):
-  taxed_price = price_without_tax * tax_rate
-  print(math.floor(taxed_price))
+def taxed_price(price_without_tax, tax_rate):
+  return price_without_tax * tax_rate
 
-two_arguments(100, 1.1)
+print(math.floor(taxed_price(100, 1.1)))
